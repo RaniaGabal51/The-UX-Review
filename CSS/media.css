@@ -1,0 +1,393 @@
+/* ############################## */
+/* tablet */
+/* ############################### */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .main-title {
+    margin-bottom: 64px;
+  }
+
+  .main-title h2 {
+    font-size: 46px;
+  }
+
+  .main-title p {
+    font-size: 20px;
+  }
+
+  .main-title .border {
+    width: 10%;
+  }
+
+  /* start articles section */
+  .articles .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .articles .latest-articles .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latest-articles .title .trending-btn {
+    opacity: 1;
+  }
+
+  .latest-articles .articles-btn button {
+    font-size: 20px;
+  }
+
+  .cards .card .card-image span,
+  .cards .card .card-content span.span {
+    font-size: 12px;
+  }
+
+  .cards .card .card-content p {
+    font-size: 18px;
+  }
+  .cards .card .card-content .card-icon {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .cards .card .card-content .card-icon span {
+    width: 50%;
+  }
+
+  .trending-articles .sticky {
+    position: sticky;
+    top: 60px;
+  }
+
+  .trending-box .list span {
+    font-size: 16px;
+  }
+
+  /* end articles section */
+  /* authors section */
+
+  .authors .authors-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .authors .authors-info .card-info {
+    width: calc((100% - 40px) / 2);
+  }
+
+  /* authors section */
+
+  /* start Rebellion section */
+
+  .community .bigger h3 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .community .bigger p.paragraph {
+    font-size: 20px;
+  }
+
+  .community .bigger p.paragraph {
+    padding: 16px;
+    margin-bottom: 32px;
+  }
+
+  .membership-benefits .benefit-item {
+    margin-bottom: 25px;
+  }
+
+  .community .bigger .membership-benefits,
+  .testimonial-card p,
+  .user-info span {
+    font-size: 18px;
+  }
+
+  .bigger .community-btn {
+    margin: 48px 0;
+  }
+
+  .bigger .community-btn button {
+    font-size: 24px;
+    padding: 24px 48px;
+  }
+
+  .testimonials h3 {
+    font-size: 30px;
+  }
+
+  .testimonial-card p {
+    margin-bottom: 16px;
+  }
+  .user-info img {
+    height: 45px;
+    width: 45px;
+  }
+
+  .user-info p {
+    font-size: 14px;
+  }
+  /* end Rebellion section */
+
+  /* start footer */
+  .footer .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .categories,
+  .newsletter {
+    width: calc(50% - 20px);
+  }
+
+  .footer-content .footer-logo .logo {
+    margin-bottom: 32px;
+  }
+
+  .footer-logo .logo i {
+    padding: 12px 20px;
+    font-size: x-large;
+  }
+
+  .footer-logo .logo h2 {
+    font-size: 30px;
+  }
+
+  .footer-content p {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .footer-content h3 {
+    font-size: 24px;
+  }
+
+  .categories ul li {
+    font-size: 18px;
+  }
+
+  .newsletter .form input {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .newsletter .form button {
+    font-size: 18px;
+  }
+
+  .form input[placeholder] {
+    font-size: 18px;
+  }
+
+  .newsletter .form button {
+    padding: 16px 0;
+  }
+
+  .rights {
+    align-items: center;
+  }
+  
+  .rights .paragraph {
+    font-size: 18px;
+  }
+
+  .rights .policy-links {
+    font-size: 16px;
+  }
+}
+
+/* ############################ */
+/* laptop */
+/* ############################# */
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header .container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .header .header-image {
+    transform: rotate(2deg);
+  }
+
+  .header .header-image:hover {
+    transform: rotate(2deg) translateY(-5px) translateX(-5px);
+  }
+
+  .container .header-content {
+    padding-right: 40px;
+  }
+  .container .header-content .trending-btn {
+    font-size: 14px;
+  }
+
+  .container .header-content h1 {
+    font-size: 72px;
+  }
+
+  .container .header-content p {
+    font-size: 24px;
+  }
+  .container .header-content .header-btn {
+    display: flex;
+  }
+  /* end header */
+
+  /* start articles section */
+
+  .articles .container {
+    flex-direction: row;
+  }
+
+  .latest-articles .cards .card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .latest-articles .cards .card h3 {
+    font-size: 24px;
+  }
+
+  .cards .card .card-image {
+    height: fit-content;
+  }
+
+  .articles .latest-articles {
+    flex: 2;
+  }
+
+  .articles .trending-articles {
+    flex: 1;
+  }
+
+  .trending-articles .trending-box h3 {
+    font-size: 30px;
+  }
+
+  .trending-box .box-content p {
+    font-size: 14px;
+  }
+  /* end articles section */
+
+  /* authors section */
+  .authors-info .card-info p,
+  .authors-info .card-info span {
+    font-size: 16px;
+  }
+
+  .card-info .author-photo span {
+    font-size: 12px;
+  }
+
+  .authors-info .card-info h3 {
+    font-size: 30px;
+  }
+  /*end authors section */
+  .rebellion .community {
+    flex-direction: row;
+  }
+
+  /* start footer */
+  .footer .footer-content {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ################################## */
+/* desktop */
+/* ################################## */
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .navbar .container .logo {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .navbar .container .menu-icon {
+    display: none;
+  }
+
+  .navbar .container .list-menu,
+  .navbar .container .subscribe {
+    display: block;
+  }
+
+  .navbar .container .subscribe {
+    background-color: #ffd15b;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2222px;
+  }
+  .navbar .container .subscribe:hover {
+    transform: translateX(7px) translateY(3px);
+  }
+
+  .navbar .container .list-menu ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .list-menu ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  .list-menu ul li a:hover {
+    color: #ff6900;
+  }
+
+  .list-menu ul li i {
+    color: #d1d5dc;
+    margin-left: 16px;
+    font-size: inherit;
+  }
+  /* articles section */
+  .cards .card .card-content .card-icon {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards .card .card-content .card-icon span {
+    width: auto;
+    flex-wrap: nowrap;
+  }
+  /* end articles section*/
+
+  /* authors section */
+  .authors .authors-info {
+    flex-wrap: nowrap;
+  }
+  /* start footer */
+
+  .footer .rights {
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
