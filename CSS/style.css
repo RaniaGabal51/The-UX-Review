@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Exo", sans-serif;
   border: 2px solid;
@@ -908,7 +912,7 @@ button {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 12px;
-   transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .categories ul li:hover,
@@ -925,7 +929,6 @@ button {
   color: #fff;
 }
 
-
 .form input[placeholder] {
   font-size: 12px;
   font-weight: 700;
@@ -939,7 +942,7 @@ button {
   font-size: 14px;
   font-weight: 700;
   box-shadow: inset 0px 0px 0px 4px #ccb21a;
-   transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .newsletter .form button:hover {
@@ -964,5 +967,5 @@ button {
   gap: 24px;
   font-size: 12px;
   font-weight: 600;
-   transition: all 0.3s;
+  transition: all 0.3s;
 }
